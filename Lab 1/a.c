@@ -1,8 +1,10 @@
-1.) Define a structure called Student with the members: name, reg_no, marks in 3 tests and average_ marks. Develop a menu driven program to perform the following by writing separate function for each operation: a) read information of N students b) display student’s information c) to calculate the average of best two test marks of each student. Note: Illustrate the use of pointer to an array of structure and allocate memory dynamically using malloc () /calloc()/realloc().
+/* 
+Define a structure called Student with the members: name, reg_no, marks in 3 tests and average_ marks. Develop a menu driven program to perform the following by writing separate function for each operation: a) read information of N students b) display student’s information c) to calculate the average of best two test marks of each student. Note: Illustrate the use of pointer to an array of structure and allocate memory dynamically using malloc () /calloc()/realloc().
 #include <stdio.h>
 #include <stdlib.h>
 //N->Number Of Students
 int N,size,i,j;
+*/
 //Defining a Structure named Student
 struct student{
     char name[30];
